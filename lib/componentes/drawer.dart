@@ -7,10 +7,10 @@ Widget meuDrawer() {
       children: const <Widget>[
         DrawerHeader(
           decoration: BoxDecoration(
-            color: Colors.grey,
+            color: Colors.red,
           ),
           child: Text(
-            'Cabeçalho do Drawer',
+            'Não Olhe Aqui',
             style: TextStyle(
               color: Colors.white,
               fontSize: 24,
