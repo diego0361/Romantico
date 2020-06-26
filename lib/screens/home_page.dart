@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:romantico/componentes/Barra.dart';
 import 'package:romantico/componentes/drawer.dart';
 import 'package:romantico/screens/frases_romanticas.dart';
-import 'package:romantico/screens/gifts/gifs.dart';
+import 'package:romantico/screens/gifs.dart';
 import 'package:romantico/screens/imagens_fofas.dart';
 
 class HomePage extends StatefulWidget {

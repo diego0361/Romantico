@@ -24,7 +24,9 @@ class _MeuDrawerState extends State<MeuDrawer> {
         children: <Widget>[
           UserAccountsDrawerHeader(
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(1),
+                borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(16),
+                    bottomRight: Radius.circular(16)),
                 border: Border.all(width: 2.0, color: Colors.transparent),
                 gradient: LinearGradient(
                   colors: [
