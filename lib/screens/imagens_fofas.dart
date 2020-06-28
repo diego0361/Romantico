@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:romantico/componentes/appBar.dart';
 
 class ImagensFofas extends StatefulWidget {
   @override
@@ -9,9 +10,7 @@ class _ImagensFofasState extends State<ImagensFofas> {
   @override
   Widget build(context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.green[100],
-      ),
+      appBar: barra("Imagens Românticas"),
     );
   }
 }

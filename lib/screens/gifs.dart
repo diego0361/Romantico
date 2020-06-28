@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:romantico/componentes/appBar.dart';
 import 'package:romantico/componentes/gif_page.dart';
 import 'package:share/share.dart';
 import 'package:transparent_image/transparent_image.dart';
@@ -40,12 +41,7 @@ class _GiftsState extends State<Gifts> {
   @override
   Widget build(context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.red,
-        title: Image.network(
-            'https://developers.giphy.com/static/img/dev-logo-lg.7404c00322a8.gif'),
-        centerTitle: true,
-      ),
+      appBar: barra("Gifts"),
       backgroundColor: Colors.black,
       body: Column(
         children: <Widget>[
